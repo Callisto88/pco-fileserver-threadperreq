@@ -9,7 +9,7 @@ class BufferType : public AbstractBuffer<T>
 {
 public:
 
-    buffertype(){
+    BufferType(){
         waitEmpty.release();
     }
     void put(T item){
